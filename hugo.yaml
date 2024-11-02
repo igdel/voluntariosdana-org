@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
-languageCode: en-us
-title: Hugo Fresh Theme
+baseURL: http://voluntariosdana.org/
+languageCode: es-es
+title: Voluntarios Dana Valencia
 
 module:
   # uncomment line below for local development of module
@@ -28,11 +28,11 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/vd.svg
     link: /
     # Default width/height. Uncomment if you need to change
-    # width: 112
-    # height: 28
+    width: 112
+    height: 70
   font:
     name: "Open Sans"
     sizes: [400,600]
