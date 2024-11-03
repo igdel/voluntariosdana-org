@@ -1,0 +1,81 @@
+/* assets/css/custom.css */
+
+/* Control general para todas las imágenes en secciones */
+.section .image {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* tamaño base */
+}
+
+/* Estilos específicos por sección si es necesario */
+#section1 .image img {
+    width: 3px !important;
+}
+
+#section2 .image img{
+    width: 3px !important;
+}
+
+#section3 .image {
+    width: 3px !important;
+}
+
+#section4 .image {
+    width: 3px !important;
+}
+
+/* Responsive breakpoints */
+@media screen and (max-width: 1024px) {
+    .section .image {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section .image {
+        width: 200px;
+    }
+
+    /* Ajustes específicos para móvil por sección si es necesario */
+    #section1 .image {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section .image {
+        width: 150px;
+    }
+}
+
+/* Para mantener la proporción y evitar deformación */
+.section .image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* Para asegurar que el contenedor se ajusta */
+.section .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Ajustes para el contenido alrededor de las imágenes */
+.section .content {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Para mantener el espaciado consistente */
+.section {
+    padding: 3rem 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 2rem 1rem;
+    }
+}

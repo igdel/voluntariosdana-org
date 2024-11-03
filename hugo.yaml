@@ -1,10 +1,7 @@
 baseURL: http://voluntariosdana.org/
 languageCode: es-es
 title: "Seguros DANA Valencia 2024 - Guía Consorcio de Compensación | Información Voluntarios"
-
-module:
-  imports:
-    path: github.com/StefMa/hugo-fresh
+theme: 'hugo-fresh'
 
 disableKinds:
   - taxonomy
@@ -17,7 +14,8 @@ markup:
 params:
   openGraph: true
   description: "Guía completa sobre seguros y Consorcio tras la DANA Valencia. ✓ Cómo reclamar indemnización ✓ Teléfono 900 222 665 ✓ Proceso paso a paso explicado por voluntarios"
-
+  css:
+    - custom.css
   navbarlogo:
     image: logos/vd.svg
     link: /
