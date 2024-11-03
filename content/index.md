@@ -12,4 +12,4 @@ Buffalo cupim kielbasa spare ribs frankfurter. Ribeye pork burgdoggen tenderloin
 
 <br>
 
-Beef jowl tail alcatra frankfurter bacon t-bone hamburger shankle. Ham hock ball tip spare ribs turkey fatback shank short loin buffalo meatball burgdoggen pork chop shankle. Porchetta buffalo pork belly chicken leberkas drumstick. Jerky chuck brisket spare ribs ribeye pork chop shankle beef ribs beef capicola. Boudin short ribs rump flank picanha. Brisket pork loin turducken, flank jerky pastrami pork chop spare ribs bresaola beef ribs. Cow fatback tenderloin pork loin pancetta.
+Beef jowl tai l alcatra frankfurter bacon t-bone hamburger shankle. Ham hock ball tip spare ribs turkey fatback shank short loin buffalo meatball burgdoggen pork chop shankle. Porchetta buffalo pork belly chicken leberkas drumstick. Jerky chuck brisket spare ribs ribeye pork chop shankle beef ribs beef capicola. Boudin short ribs rump flank picanha. Brisket pork loin turducken, flank jerky pastrami pork chop spare ribs bresaola beef ribs. Cow fatback tenderloin pork loin pancetta.
