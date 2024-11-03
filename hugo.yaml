@@ -6,7 +6,7 @@ theme: hugo-fresh
 disableKinds:
   - taxonomy
   - term
-
+ 
 markup:
   goldmark:
     renderer:
