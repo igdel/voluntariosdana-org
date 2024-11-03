@@ -1,12 +1,12 @@
 baseURL: https://voluntariosdana-org.pages.dev/
 languageCode: es-es
 title: "Seguros DANA Valencia 2024 - Guía Consorcio de Compensación | Información Voluntarios"
-theme: hugo-fresh
+theme: ["hugo-fresh", "bulma"]
 
 disableKinds:
   - taxonomy
   - term
- 
+
 markup:
   goldmark:
     renderer:
