@@ -87,14 +87,36 @@ params:
         text: "Revisa cobertura de pérdida de beneficios. Documenta inventario dañado. Guarda toda factura de reparación."
         icon: store
 
+  section3:
+    title: "Documentación para Reclamar al Seguro"
+    subtitle: "Requisitos del Consorcio de Compensación"
+    image: "doc.svg"
+    buttonText: "Descargar Checklist"
+    buttonLink: "/documentacion/checklist"
+
+  section4:
+    title: Información del Consorcio de Compensación
+    subtitle: Información verificada del Consorcio de Seguros (CCS)
+    clients:
+      - name: Consorcio de Seguros
+        quote: "El CCS es un organismo público dependiente del Ministerio de Economía que indemniza por daños que superan la capacidad de las aseguradoras."
+        job: "¿Qué es el CCS?"
+        img: consorcio
+      - name: Consorcio de Seguros
+        quote: "Para solicitar indemnización, contacte primero con su aseguradora y luego llame al 900 222 665 o realice la solicitud online."
+        job: "Cómo Reclamar"
+        img: consorcio
+      - name: Consorcio de Seguros
+        quote: "Para recibir indemnización del Consorcio debe disponer de una póliza de seguro y estar al día en el pago."
+        job: "Requisitos"
+        img: consorcio
+
   footer:
     logo: vd-white.svg
-    socialmediatitle: "Iniciativa Vecinal"
+    socialmediatitle: "Redes Sociales"
     socialmedia:
       - link: https://twitter.com/voluntariosdana
         icon: twitter
-      - link: https://facebook.com/voluntariosdana
-        icon: facebook
     bulmalogo: false
     quicklinks:
       column1:
