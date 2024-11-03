@@ -32,7 +32,7 @@ params:
     subtitle: "Guía práctica: proceso de reclamación al Consorcio de Compensación de Seguros, documentación necesaria y plazos. Información recopilada por voluntarios para ayudar a afectados."
     buttontext: "Ver Cómo Reclamar"
     buttonlink: "#proceso-reclamacion"
-    image: vd.svg
+    image: logos/vd.svg
 
   navbar:
     - title: "Cómo Reclamar"
