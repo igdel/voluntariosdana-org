@@ -1,227 +1,154 @@
 baseURL: http://voluntariosdana.org/
 languageCode: es-es
-title: Voluntarios Dana Valencia
+title: "Seguros DANA Valencia 2024 - Guía Consorcio de Compensación | Información Voluntarios"
 
 module:
-  # uncomment line below for local development of module
-  # workspace: hugo.work
   imports:
     path: github.com/StefMa/hugo-fresh
 
-
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
-# Disables warnings
 disableKinds:
-- taxonomy
-- taxonomyTerm
+  - taxonomy
+  - taxonomyTerm
 markup:
   goldmark:
     renderer:
-      unsafe: true # Allows you to write raw html in your md files
+      unsafe: true
 
 params:
-  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
-  # Used as meta data; describe your site to make Google Bots happy
-  description:
-  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
-  # preloader: false
+  description: "Guía completa sobre seguros y Consorcio tras la DANA Valencia. ✓ Cómo reclamar indemnización ✓ Teléfono 900 222 665 ✓ Proceso paso a paso explicado por voluntarios"
+
   navbarlogo:
-  # Logo (from static/images/logos/___)
     image: logos/vd.svg
     link: /
-    # Default width/height. Uncomment if you need to change
-    width: 112
-    height: 70
+    width: 120
+    height: 100
+
   font:
-    name: "Open Sans"
+    name: "Montserrat"
     sizes: [400,600]
+
   hero:
-    # Main hero title
-    title: Manage. Deploy.
-    # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
-    # Button text
-    buttontext: Get started
-    # Where the main hero button links to
-    buttonlink: "#"
-    # Hero image (from static/images/___)
-    image: illustrations/worker.svg
-    # Footer logos (from static/images/logos/clients/*.svg)
-    # urls are optional
-    clientlogos:
-    - logo: systek
-      url: https://google.com
-    - logo: tribe
-      url: https://stefma.github.io/hugo-fresh/
-    - logo: kromo
-      url: https://github.com/StefMa/hugo-fresh
-    - logo: infinite
-      url: https://hugo-fresh.vercel.app/
-    - logo: gutwork
-      url: https://bulma.io/
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
+    title: "Cómo Reclamar al Seguro por la DANA Valencia"
+    subtitle: "Guía práctica: proceso de reclamación al Consorcio de Compensación de Seguros, documentación necesaria y plazos. Información recopilada por voluntarios para ayudar a afectados."
+    buttontext: "Ver Cómo Reclamar"
+    buttonlink: "#proceso-reclamacion"
+    image: vd.svg
+
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
-  sidebar:
-    # Logo (from static/images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+    - title: "Cómo Reclamar"
+      url: /como-reclamar
+    - title: "Seguros DANA"
+      sublinks:
+        - title: "Seguro Hogar DANA"
+          url: /seguros/hogar-dana
+        - title: "Seguro Vehículos DANA"
+          url: /seguros/vehiculos-dana
+        - title: "Consorcio Compensación"
+          url: /seguros/consorcio
+    - title: "Preguntas Frecuentes"
+      url: /faq-seguros-dana
+    - title: "Teléfonos Ayuda"
+      url: /telefonos
+    - title: "Contacto"
+      url: /contacto
+      button: true
+
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: "Proceso de Reclamación al Seguro por DANA"
+    subtitle: "Pasos verificados para solicitar indemnización al Consorcio"
     tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      - title: 1. Documenta Todo
+        icon: camera
+        text: "IMPORTANTE: Haz fotos y vídeos de TODOS los daños ANTES de limpiar. Guarda facturas y tickets."
+        url: /documentacion
+        buttonText: "Cómo Documentar"
+      - title: 2. Contacta Seguro
+        icon: phone
+        text: "Primero contacta con tu seguro. Si no responden: Consorcio 900 222 665"
+        url: /contacto
+        buttonText: "Ver Teléfonos"
+      - title: 3. Prepara Papeles
+        icon: file
+        text: "Documentación necesaria y proceso paso a paso explicado de forma clara"
+        url: /papeles
+        buttonText: "Ver Lista"
+
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: "Indemnizaciones por Tipo de Seguro DANA"
+    subtitle: "Qué cubre el Consorcio de Compensación"
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from static/images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+      - title: Seguro de Hogar
+        text: "Cubre daños estructurales, contenido, inhabitabilidad temporal. DOCUMENTA TODO antes de limpiar. Guarda TODOS los tickets."
+        icon: home
+      - title: Vehículos
+        text: "El Consorcio cubre daños aunque solo tengas seguro a terceros. Fotos del nivel del agua y daños son cruciales."
+        icon: car
+      - title: Negocios
+        text: "Revisa cobertura de pérdida de beneficios. Documenta inventario dañado. Guarda toda factura de reparación."
+        icon: store
+
   section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+    title: "Documentación para Reclamar al Seguro"
+    subtitle: "Requisitos del Consorcio de Compensación"
+    image: "doc.svg"
+    buttonText: "Descargar Checklist"
+    buttonLink: "/documentacion/checklist"
+
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: Información del Consorcio de Compensación
+    subtitle: Información verificada del Consorcio de Seguros (CCS)
     clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5:
-    title: Drop us a line or two
-    subtitle: We'd love to hear from you
-    buttonText: Send Message
-    # action: https://formspree.io/f/<form_id>
-    # method: POST
+      - name: Consorcio de Seguros
+        quote: "El CCS es un organismo público dependiente del Ministerio de Economía que indemniza por daños que superan la capacidad de las aseguradoras."
+        job: "¿Qué es el CCS?"
+        img: consorcio
+      - name: Consorcio de Seguros
+        quote: "Para solicitar indemnización, contacte primero con su aseguradora y luego llame al 900 222 665 o realice la solicitud online."
+        job: "Cómo Reclamar"
+        img: consorcio
+      - name: Consorcio de Seguros
+        quote: "Para recibir indemnización del Consorcio debe disponer de una póliza de seguro y estar al día en el pago."
+        job: "Requisitos"
+        img: consorcio
+
+  notes: "* Información extraída de comunicados oficiales del Consorcio de Compensación de Seguros"
+
+
   footer:
-    # Logo (from static/images/logos/___)
-    logo: fresh-white-alt.svg
-    # Social Media Title
-    socialmediatitle: Follow Us
-    # Social media links (GitHub, Twitter, etc.). All are optional.
+    logo: vd-white.svg
+    socialmediatitle: "Iniciativa Vecinal"
     socialmedia:
-    - link: https://github.com/StefMa
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/StefMa91
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+      - link: https://twitter.com/voluntariosdana
+        icon: twitter
+      - link: https://facebook.com/voluntariosdana
+        icon: facebook
+    bulmalogo: false
     quicklinks:
       column1:
-        title: "Product"
+        title: "Reclamaciones"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+          - text: "Cómo Reclamar DANA"
+            link: /como-reclamar
+          - text: "Documentación Necesaria"
+            link: /documentacion
+          - text: "Preguntas Frecuentes"
+            link: /faq
       column2:
-        title: "Docs"
+        title: "Ayuda"
         links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+          - text: Solicitar Ayuda
+            link: /ayuda
+          - text: Chat con Voluntarios
+            link: /chat
+          - text: Contacto
+            link: /contacto
       column3:
-        title: "Blog"
+        title: "Recursos"
         links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+          - text: Blog
+            link: /blog
+          - text: Últimas Noticias
+            link: /noticias
+          - text: Experiencias
+            link: /experiencias
